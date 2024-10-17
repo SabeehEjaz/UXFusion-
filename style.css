@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
+
+
+*{
+    font-family: "Ruda", sans-serif;
+}
+
+body {
+	background: #71bfde;
+}
+
+
+.carousel-caption{
+    position:absolute;
+    top: 170px;
+    z-index: 1;
+}
+
+.carousel-caption h5{
+    font-size: 60px;
+}
+
+.carousel-caption p{ 
+    margin: auto;
+    font-size: 20px;
+    width: 60%;
+}
+
+.carousel-inner::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+
+}
+
+
+/* Body Section */
+
+/* Top bottom 100px left right 0 */
+
+.section-padding{
+    padding: 100px 0; 
+    
+}
+
+.about-text{
+    padding-top: 90px;
+}
+
+.about-text h2{
+    width: 50%;
+}
+
+.about-text p{
+    font-size: 19px;
+}
+
+.section{
+    background-color: rgb(51, 97, 158);
+}
+
+.team{
+    background-color:  rgb(51, 97, 158);
+}
